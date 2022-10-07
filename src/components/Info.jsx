@@ -102,6 +102,8 @@ export const Info = (props) => {
     push,
   } = props;
 
+  console.log(props)
+
   return (
     <Wrapper>
       <InfoImage src={flag} alt={name} />
